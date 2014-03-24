@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'pagantis/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'pagantis'
+  spec.name        = 'pagantis-ruby'
   spec.version     = Pagantis::VERSION
   spec.platform    = Gem::Platform::RUBY
 

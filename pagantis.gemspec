@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.summary       = 'Ruby wrapper around Pagantis API with ActiveResource'
 
-  spec.add_runtime_dependency 'activeresource', '~> 4.0'
+  spec.add_runtime_dependency 'activeresource', ">= 3.2", "< 4.2.0"
 end
 

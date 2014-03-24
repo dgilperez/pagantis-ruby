@@ -17,3 +17,4 @@ require 'pagantis/plan'
 require 'pagantis/subscription'
 require 'pagantis/payment_request'
 
+require 'pagantis/helper'

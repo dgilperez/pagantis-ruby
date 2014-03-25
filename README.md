@@ -3,7 +3,6 @@ Pagantis ruby gem
 
 This is a Ruby wrapper for Pagantis API.
 
-
 Usage
 ======
 
@@ -24,8 +23,6 @@ Then you have to set your API key:
 
     Pagantis::Base.token = 'your-api-token'
 
-
-
 Subscriptions and plans
 ======
 
@@ -37,13 +34,7 @@ Getting plan details
 
     plan = Pagantis::Plan.find('pla_xxxxxxxxxx')
 
-
-
-
-
-
 Copyright
 ======
 
 Copyright (c) 2014 Telecoming Payment Solutions S.A.. See LICENSE for details.
-

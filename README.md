@@ -10,7 +10,7 @@ Usage
 First, you've to install the gem
 
     gem install pagantis-ruby
-    
+
 and require it
 
     require 'pagantis-ruby'
@@ -23,8 +23,8 @@ or add it to your Gem file
 Then you have to set your API key:
 
     Pagantis::Base.token = 'your-api-token'
-    
-    
+
+
 
 Subscriptions and plans
 ======
@@ -35,10 +35,10 @@ Getting all existing plans in your account:
 
 Getting plan details
 
-   plan = Pagantis::Plan.find('pla_xxxxxxxxxx')
+    plan = Pagantis::Plan.find('pla_xxxxxxxxxx')
 
 
-    
+
 
 
 
@@ -46,4 +46,4 @@ Copyright
 ======
 
 Copyright (c) 2014 Telecoming Payment Solutions S.A.. See LICENSE for details.
-    
+
